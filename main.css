@@ -20,3 +20,10 @@ h2{
 .charImg{
     border-radius: 50%;
 }
+
+.female{
+    border: 5px solid pink;
+}
+.male{
+    border:5px solid #518CCA;
+}
