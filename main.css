@@ -4,3 +4,19 @@ body{
 h2{
     color: white;
 }
+.panel > .panel-heading{
+    background-color: orange;
+}
+.panel{
+    background:  #504A4A;
+    border: solid 1px white;
+    text-align: center;
+    height: 450px;
+}
+.charD{
+    color: #e23636;
+
+}
+.charImg{
+    border-radius: 50%;
+}
