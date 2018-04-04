@@ -18,8 +18,13 @@ const domString = (heroArray) =>{
         domString +=`<h3 class="panel-title">${heroArray[i].name}</h3>`;
         domString += `</div>`;
         domString += `<div class="panel-body">`;
-        domString += `<img src="${heroArray[i].image}" class="charImg">`;
-        domString += `<p class="charD">${heroArray[i].image}</p>`
+        if(heroArray[i].gender === "Female"){
+            domString += `<img src="${heroArray[i].image}" class="charImg female">`;
+        }
+        else{
+            domString += `<img src="${heroArray[i].image}" class="charImg male">`;
+        };
+        domString += `<p class="charD">${heroArray[i].description}</p>`;
         domString +=`</div>`;
         domString +=`</div>`;
         domString +=`</div>`;
